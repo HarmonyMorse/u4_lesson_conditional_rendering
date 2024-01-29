@@ -32,7 +32,7 @@ const App = () => {
       <Greeting loggedIn={loggedIn} />
       <p>The user is <b>{loggedIn ? 'currently' : 'not'}</b> logged in.</p>
       {button}
-      {unread}
+      {unread
     </div>
   )
 }
